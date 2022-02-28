@@ -1,0 +1,14 @@
+{
+  "name": "bin-day",
+  "version": "0.0.1",
+  "description": "Get Bin Collection Date",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "jacob@woffenden.io",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^13.4.0"
+  }
+}
