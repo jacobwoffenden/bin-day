@@ -6,7 +6,6 @@ WORKDIR /app
 
 COPY app.js /app/app.js
 COPY package.json /app/package.json
-COPY package-lock.json /app/package-lock.json
 
 RUN apk add --no-cache chromium
 

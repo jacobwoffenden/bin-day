@@ -24,8 +24,7 @@ async function run () {
   const nextBinDate = await page.$eval('.ui-bin-next-date', el => el.textContent); // get contents of ui-bin-next-date
   const nextBinType = await page.$eval('.ui-bin-next-type', el => el.textContent); // get contents of ui-bin-next-type
   const nextBinTypeTrim = nextBinType.trim(); // this is required as there is a leading space in nextBinType
-  console.log(nextBinDate);
-  console.log(nextBinTypeTrim);
+  console.log(JSON.stringify({ colour: nextBinTypeTrim, date: nextBinDate }));
   await browser.close(); // close browser
 }
 

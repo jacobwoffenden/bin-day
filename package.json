@@ -9,6 +9,6 @@
   "author": "jacob@woffenden.io",
   "license": "MIT",
   "dependencies": {
-    "puppeteer": "^13.4.0"
+    "puppeteer": "^14.1.1"
   }
 }
